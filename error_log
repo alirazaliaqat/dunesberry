@@ -1,0 +1,65 @@
+[15-Oct-2023 06:44:14 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:14 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:19 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:19 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:25 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:25 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:27 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:27 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:29 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:29 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:30 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:30 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:30 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:30 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:30 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:30 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:31 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:31 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:31 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:31 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:32 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:44:32 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:45:09 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/portfolio.dunesberry.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:45:09 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/portfolio.dunesberry.com/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:45:11 America/Chicago] PHP Warning:  require(/home1/dberry3/portfolio.dunesberry.com/portfolio.dunesberry.com/vendor/autoload.php): Failed to open stream: No such file or directory in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
+[15-Oct-2023 06:45:11 America/Chicago] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/dberry3/portfolio.dunesberry.com/portfolio.dunesberry.com/vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/dberry3/portfolio.dunesberry.com/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home1/dberry3/portfolio.dunesberry.com/index.php on line 34
