@@ -811,11 +811,31 @@
           accLinks.forEach(function (accLinks) {
             accLinks.addEventListener('click', updateMasonryLayout);
           });
+
+          var lastOpenAccordion = localStorage.getItem('lastOpenAccordion');
+        $('.our-work-acc-wrap.accordion').on('shown.bs.collapse', function (e) {
+            var openAccordionId = $(e.target).attr('id');
+            localStorage.setItem('lastOpenAccordion', openAccordionId);
+            $('.accordion-button[data-bs-target="#' + lastOpenAccordion + '"]').addClass('collapsed');
+            initMasonry();
+        });
+       
+        $('.our-work-acc-wrap.accordion .collapse').removeClass('show');
+        if (lastOpenAccordion) {
+            $('#' + lastOpenAccordion).addClass('show');
+            $('.accordion-button[data-bs-target="#collapsew1"]').addClass('collapsed');
+            $('.accordion-button[data-bs-target="#' + lastOpenAccordion + '"]').removeClass('collapsed');
+            initMasonry();
+        }
+        else
+        {
+            $('#collapsew1').addClass('show');
+          
+        }
           
         });
         
-       
+    
 
-        
       </script>
       @endsection 

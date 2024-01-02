@@ -186,6 +186,7 @@ class Pagecontroller extends Controller
     {
         $page = Page::find($id);
         $page->delete();
-        return redirect('/admin/pages')->with('success', 'Page Deleted successfully');
+        return redirect()->back()->with('success', 'Page Deleted successfully');
+
     }
 }

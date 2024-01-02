@@ -35,8 +35,11 @@
                                            
                                         </div>
                                        <div class="card-toolbar flex-row-fluid justify-content-end gap-5">
+                                        <a href="{{ url()->previous() }}" class="btn btn-secondary">
+                                            Go Back
+                                        </a>
                                             <a href="{{ route('pages.create') }}" class="btn btn-primary">
-                                           Add Page
+                                                Add More
                                          </a>
                                             
                                        </div>

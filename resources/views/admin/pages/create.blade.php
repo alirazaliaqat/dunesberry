@@ -10,8 +10,12 @@
     <!--begin::Col-->
     <div class="col-xl-12">
         <!--begin::Table Widget 4-->
-        <div class="px-4 py-4 table-main-title">
-            <h2 class="text-white mb-0"><i class="la la-globe fs-2 pe-2 text-white"></i>Add Page</h2>
+       
+        <div class="px-4 py-4 table-main-title d-flex align-items-center justify-content-between">
+            <h2 class="text-white mb-0"><i class="la la-globe fs-2 pe-2 text-white"></i>Add More</h2>
+            <a href="{{ url()->previous() }}" class="btn btn-secondary py-2">
+                Go Back
+            </a>
         </div>
         <div class="card card-flush h-xl-100 rounded-0">
             

@@ -35,8 +35,18 @@
                                            
                                         </div>
                                         <div class="card-toolbar flex-row-fluid justify-content-end gap-5">
+                                            @if($page->content_level == 1)
+                                            <a href="{{ url('admin/pages/'.$page->parent_page) }}" class="btn btn-secondary">
+                                                Go Back
+                                            </a>
+                                            @else
+                                            <a href="{{ url('admin/pages/sections/'.$page->parent_section) }}" class="btn btn-secondary">
+                                                Go Back
+                                            </a>
+                                            @endif
+
                                             <a href="{{ route('pages.create') }}" class="btn btn-primary">
-                                                Add Section
+                                                Add More
                                             </a>
                                             
                                         </div>

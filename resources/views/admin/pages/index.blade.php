@@ -34,12 +34,12 @@
                                            
                                            
                                         </div>
-                                        <!--<div class="card-toolbar flex-row-fluid justify-content-end gap-5">-->
-                                        <!--    <a href="{{ route('pages.create') }}" class="btn btn-primary">-->
-                                        <!--        Add Page-->
-                                        <!--    </a>-->
+                                        <div class="card-toolbar flex-row-fluid justify-content-end gap-5">
+                                        <a href="{{ route('pages.create') }}" class="btn btn-primary">
+                                             Add Page
+                                         </a>
                                             
-                                        <!--</div>-->
+                                       </div>
                                     </div>
                                     @if(count($pages)>0)
                                         <div class="card-body">

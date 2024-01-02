@@ -199,13 +199,14 @@
 								</li>
 								*/ ?>
 						
-								<li>
-									<div class="menu-item">
-										<!--begin:Menu link-->
-										<a class="menu-link {{ (request()->is('admin/site-setting')) ? 'active' : '' }}" href="/admin/site-setting">
-											<span class="menu-icon">
-											
+								
 
+								<li>
+									<div data-kt-menu-trigger="click" class="menu-item menu-accordion {{ (request()->is('admin/site-setting')) ? 'show' : '' }}
+										{{ (request()->is('admin/change-password')) ? 'show' : '' }}">
+										<!--begin:Menu link-->
+										<span class="menu-link">
+											<span class="menu-icon">
 												<span class="svg-icon svg-icon-2">
 													<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 														<path opacity="0.3" d="M7 20.5L2 17.6V11.8L7 8.90002L12 11.8V17.6L7 20.5ZM21 20.8V18.5L19 17.3L17 18.5V20.8L19 22L21 20.8Z" fill="currentColor"></path>
@@ -213,12 +214,39 @@
 													</svg>
 												</span>
 											</span>
-											<span class="menu-title">Site Setting</span>
+											<span class="menu-title">Setting</span>
+											<span class="menu-arrow"></span>
+										</span>
+										<!--end:Menu link-->
+										<div class="menu-sub menu-sub-accordion">
 											
-										</a>
-										
+											<!--begin:Menu sub-->
+											
+											<div class="menu-item">
+												
+												<a class="menu-link" href="/admin/site-setting">
+													<span class="menu-bullet">
+														<span class="bullet bullet-dot"></span>
+													</span>
+													<span class="menu-title">Site Setting</span>
+												</a>
+												
+											</div>
+											<div class="menu-item">
+												
+												<a class="menu-link" href="/admin/clear-cache">
+													<span class="menu-bullet">
+														<span class="bullet bullet-dot"></span>
+													</span>
+													<span class="menu-title">Clear Cache</span>
+												</a>
+												
+											</div>
+											
+										</div>
 										
 									</div>
+									<!--end:Menu item-->
 								</li>
 								
 								<li>
