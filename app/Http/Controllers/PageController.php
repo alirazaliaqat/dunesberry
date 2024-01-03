@@ -41,7 +41,7 @@ class Pagecontroller extends Controller
     {
         $page = new Page;
         $validatedData = $request->validate([
-            'image' => 'image|mimes:jpg,png,jpeg,gif,svg|max:2048',
+            'image' => 'image|mimes:jpg,png,jpeg,gif,svg,webp|max:2048',
             'video' => 'mimetypes:video/mp4',
             'display_order' => 'required',
             'content_level' => 'required',
@@ -124,7 +124,7 @@ class Pagecontroller extends Controller
     {
         $page = Page::find($id);
         $validatedData = $request->validate([
-            'image' => 'image|mimes:jpg,png,jpeg,gif,svg|max:2048',
+            'image' => 'image|mimes:jpg,png,jpeg,gif,svg,webp|max:2048',
             'file' => 'mimetypes:video/mp4,application/pdf', // Accept video and PDF files
             'display_order' => 'required',
         ]);

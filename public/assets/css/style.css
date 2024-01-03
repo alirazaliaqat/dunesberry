@@ -604,7 +604,6 @@ body,html
 /* Numbers section */
 
 .numbers-section{
-  background-image: url('../images/db-numbers.webp');
   background-position: center;
   background-size:cover;
   padding: 100px 0;
@@ -631,7 +630,7 @@ body,html
   z-index: 2;
 }
 
-.numbers-container svg{
+.numbers-container svg,.numbers-container img {
   width: 120px;
   display: flex;
   margin: auto;
@@ -647,7 +646,9 @@ body,html
   opacity:1;
 }
 
-.numbers-container h3{
+
+
+.numbers-container h3 >p{
   color: white;
   text-align: center;
   font-size: 40px;
